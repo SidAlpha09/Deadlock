@@ -1,0 +1,5 @@
+exp     : term((PLUS|MINUS) term)*
+
+term    : factor((MUL|DIV))*
+
+factor  : INT|FLOAT
